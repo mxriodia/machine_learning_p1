@@ -1,7 +1,7 @@
 # Declaración de uso de IA — Práctica 1
 
-**Grupo:** *(número)* · **Integrantes:** *(apellido 1)*, *(apellido 2)*, *(apellido 3)*, *(apellido 4)*
-**Fecha:** *(fecha de entrega)*
+**Grupo:** *4* · **Integrantes:** *Carlos Chapman Peña*, *Miguel Ángel Gordillo Masero*, *María Xiaolan Ríos Díaz*, *Pablo Sola Díaz*
+**Fecha:** *09/11/2026*
 
 ---
 
@@ -34,7 +34,11 @@ escribid esa frase.
 
 | Herramienta o servicio | Propósito | Ficheros o secciones afectados | Cómo se comprobó el resultado |
 |---|---|---|---|
-| *(p. ej. Claude)* | *(p. ej. depurar un error de matplotlib)* | *(p. ej. Ejercicio 1(b), el método `fit`)* | *(p. ej. volvimos a ejecutar la celda y comparamos los tamaños de grupo con la tabla de 3(a))* |
+| *Gemini* | *Solucionar un error relacionado con las dimensiones de las matrices (broadcasting) y generalizar la clase para aceptar un número dinámico de columnas (adaptar los pesos y el cálculo de distancias de 3 a 24 columnas).* | *Ejercicio 1(b) (métodos `__init__`, `fit` y `predict`de `MiVariante`) y Ejercicio 3(a).* | *Se volvió a ejecutar la función `comprobar_estimador`del Ejercicio 1 y la rejilla del Ejercicio 3(a), verificando que se procesaba la matriz `H` sin errores de dimensión.* |
+| *Gemini* | *Comprender los parámetros y el uso de la función `mostrar_paleta` para visualizar las proporciones de los clústeres.* | *Ejercicio 1 (celda en la que se visualiza la imagen recoloreada).* | *Se ejecutó la celda de visualización y se comprobó visualmente que la barra de colores se dibujaba correctamente con las proporciones esperadas.* |
+| *Gemini* | *Corregir la forma de recoger los tamaños de los grupos, cambiando la asignación directa por un diccionario que organizara los valores antes de crear el DataFrame.* | *Ejercicio 4(c) y 4(e)*. | *Se ejecutó el código y se verificó que la tabla final contenía los valores correctos de los tamaños de los grupos para el K elegido en cada enlace, antes de revelar los resultados*. |
+| *Gemini* | *Entender el uso de `scipy.cluster.hierarchy.linkage` y desarrollar el procedimiento para extraer y calcular el mayor salto relativo entre las alturas de fusión.* | *Ejercicio 4(a) y 4(b)*. | *Se ejecutó el bloque de código para imprimir y analizar los valores de los saltos relativos, comprobando que el umbral elegido identificaba correctamente el punto de corte óptimo en el dendrograma.* |
+| *Gemini* | *Dar formato en LaTeX a los textos de las celdas Markdown para mejorar la visualización de fórmulas y variables.* | *Celdas de texto explicativo en formato Markdown de todo el cuaderno.* | *Se visualizaron las celdas Markdown para comprobar que las fórmulas, variables y expresiones matemáticas se mostraban correctamente.* |
 | | | | |
 
 ## Lo que sigue siendo vuestro
