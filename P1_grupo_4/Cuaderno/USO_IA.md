@@ -39,7 +39,7 @@ escribid esa frase.
 | *Gemini* | *Corregir la forma de recoger los tamaños de los grupos, cambiando la asignación directa por un diccionario que organizara los valores antes de crear el DataFrame.* | *Ejercicio 4(c) y 4(e)*. | *Se ejecutó el código y se verificó que la tabla final contenía los valores correctos de los tamaños de los grupos para el K elegido en cada enlace, antes de revelar los resultados*. |
 | *Gemini* | *Entender el uso de `scipy.cluster.hierarchy.linkage` y desarrollar el procedimiento para extraer y calcular el mayor salto relativo entre las alturas de fusión.* | *Ejercicio 4(a) y 4(b)*. | *Se ejecutó el bloque de código para imprimir y analizar los valores de los saltos relativos, comprobando que el umbral elegido identificaba correctamente el punto de corte óptimo en el dendrograma.* |
 | *Gemini* | *Dar formato en LaTeX a los textos de las celdas Markdown para mejorar la visualización de fórmulas y variables.* | *Celdas de texto explicativo en formato Markdown de todo el cuaderno.* | *Se visualizaron las celdas Markdown para comprobar que las fórmulas, variables y expresiones matemáticas se mostraban correctamente.* |
-| *Gemini* | *Colorear los marcos de los cuadros según los autores, asociando un color a cada autor (definiendo paleta con get_cmap y colores_marco)*  | *Ejercicio 5 (c)* |*Se visualizó el dendograma estaba correctamente dibujado* |
+| *Gemini* | *Colorear los marcos de los cuadros según los autores, asociando un color a cada autor (definiendo paleta con get_cmap y colores_marco)*  | *Ejercicio 5 (c)* |*Se visualizó que la gráfica estaba correctamente dibujada.* |
 | | | | |
 
 ## Lo que sigue siendo vuestro
